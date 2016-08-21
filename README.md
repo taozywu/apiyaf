@@ -7,7 +7,7 @@ this is a for api framework and support rest.
 3.此框架为主要提供接口服务的框架，支持cli，http访问的可自定义路由且支持restful风格多返回格式（json,html,jsonp,xml...）<br>
 
 ###更新说明
-、、、
+```
 2015/11/13
 1.增加CI的input output format security
 2.接口校验
@@ -54,5 +54,4 @@ http下访问<br>
 2.restful访问<br>
 array("get", "/cat/:id", "index", "cat", "show"), // --> /cat/1   <=> /index/cat/show/id/1<br>
 array("get", "v1/school/getStudent", "index", "v1", "index"), // --> /v1/school/getStudent <=> /index/v1/index <br>
-
-、、、
+```
