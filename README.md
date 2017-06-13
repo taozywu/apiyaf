@@ -1,12 +1,12 @@
 # apiyaf
-this is a for api framework and support rest.
+this is a for api framework based on yaf, it also support rest.
 
-#重要说明
+# 重要说明
 1. yaf里面除了lib和全局lib外，其他均只能使用自己的yaf命名空间。
 2. yaf的model部分可以支持多目录结构 例如 School_Student_V1_CatModel 对应的目录 =》 Models/Schoole/Student/V1/Cat.php
 3. 此框架为主要提供接口服务的框架，支持cli，http访问的可自定义路由且支持restful风格多返回格式（json,html,jsonp,xml...）
 
-#更新说明
+# 更新说明
 
 2017/06/13   
 抱歉!暂时不做后续升级更新,如使用该框架,请自行承担程序中的意想不到的BUG!
