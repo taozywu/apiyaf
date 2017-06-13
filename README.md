@@ -1,5 +1,5 @@
 # apiyaf
-this is a for api framework based on yaf, it also support rest.
+this's api framework based on Yaf, it supports restful, rewrite, cli.
 
 # 重要说明
 1. yaf里面除了lib和全局lib外，其他均只能使用自己的yaf命名空间。
