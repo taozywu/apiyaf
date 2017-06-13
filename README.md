@@ -8,10 +8,10 @@ this is a for api framework and support rest.
 
 #更新说明
 
-2017/06/13
+2017/06/13   
 抱歉!暂时不做后续升级更新,如使用该框架,请自行承担程序中的意想不到的BUG!
 
-2015/11/13
+2015/11/13   
 1. 增加CI的input output format security
 2. 接口校验
  * 校验format格式
@@ -24,7 +24,7 @@ this is a for api framework and support rest.
  * 校验ssl
  * 校验访问间隔控制 --@todo
 
-2015/11/12
+2015/11/12   
 1. 支持restful
 2. 配置在config/route.php
 3. 考虑到接口一般供给移动端使用，则会存在移动端版本各异的情况，则需要维护至少3个版本的api的处理。
@@ -48,7 +48,7 @@ Models
 * 所有子版本的的逻辑程序均会相应继承对应的上一级父程序
 
 
-2015/11/11
+2015/11/11   
 * cli下访问
 view /data/program/php/bin/php ./apiyaf/public/index.php request_uri="/index/index" "env=dev&aaa=a&bbb=b"
 获取变量阔以直接$GLOBALS这样来获取。
